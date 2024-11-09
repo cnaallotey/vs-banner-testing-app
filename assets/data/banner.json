@@ -1,0 +1,33 @@
+{
+    "id": "VS-VUEJSAMSTERDAM2024",
+    "ends": "2024-02-29T22:59:59.000000Z",
+    "affiliates": [
+      "vueschool"
+    ],
+    "cta": "Buy Now",
+    "link": "https://vueschool.io/sales/vuejsamsterdam24",
+    "title": "Get your Official <span>Nuxt<\/span> Certification for up to <span>56% OFF<\/span><br><span>+$20 Off<\/span> (excl junior) with coupon <span>BLACKFRIDAYCERT<\/span>",
+    "assets": "VUEJSNATION24",
+    "classes": [
+      "bb-campaign-vs-winter24"
+    ],
+    "addendum": null,
+    "logoMobile": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
+    "logoTablet": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
+    "logoDesktop": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
+    "static": "VUEJSAMSTERDAM24",
+    "prelude": "<span>Black Friday<\/span>",
+    "interlude": "Conference Offer",
+    "subtitle": "Built under review by top industry experts",
+    "showCountdown": true,
+    "showDaysAsHours": true,
+    "countdownFooter": "Ends in",  
+    "ctaOffer": "50% OFFER",
+    "offerLink": "/sales/vuejsamsterdam24",
+    "dripTags": {
+      "YEARLY,LIFETIME,TEAM_2,TEAM_3,TEAM_4,TEAM_5,TEAM_6,TEAM_7,TEAM_8,TEAM_9,TEAM_10,TEAM_12,TEAM_15,TEAM_20,TEAM_25": [
+        "Purchased - Bonus",
+        "Purchased - Bonus - VJA 2024 Conference Offer"
+      ]
+    }
+}
