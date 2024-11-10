@@ -16,6 +16,7 @@ const affiliates = [
   "vuejsforege",
   "nuxtnation",
   "angulartraining",
+  "vuejs"
 ]
 
 const showBanner = ref(true)
