@@ -13,10 +13,12 @@ const affiliates = [
   "vuerouter",
   "NSCRIPT",
   "vuejsnation",
-  "vuejsforege",
+  "vuejsforge",
   "nuxtnation",
   "angulartraining",
-  "vuejs"
+  "vuejs",
+  "vuejsdevelopers",
+  "nuxt"
 ]
 
 const showBanner = ref(true)
