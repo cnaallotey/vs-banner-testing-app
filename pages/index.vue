@@ -60,6 +60,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  background-color: #fff;
 }
 #bb-banner-video {
   max-width: 1200px;
