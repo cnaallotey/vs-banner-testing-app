@@ -2,6 +2,8 @@
 const { query } = useRoute()
 const affiliate = ref('')
 
+const unListedAffiliate = ref('')
+
 const affiliates = [
   "masteringnuxt",
   "vueschool",
@@ -23,8 +25,8 @@ const affiliates = [
 
 const showBanner = ref(true)
 
-function openURL () {
-  window.location.href = `/?affiliate=${affiliate.value}`
+function openURL (id) {
+  window.location.href = `/?affiliate=${id}`
 }
 
 onMounted(() => {
@@ -39,7 +41,13 @@ onMounted(() => {
     <div class="max-w-md flex flex-col gap-4 w-full">
     <AppBanner :affiliate="affiliate" :key="affiliate" />
     <p class="text-gray-700 font-medium">Select your affiliate</p>
-      <USelectMenu v-model="affiliate" @change="openURL()" :options="affiliates" />
+      <USelectMenu v-model="affiliate" @change="openURL(affiliate)" :options="affiliates" />
+
+      <form action="submit" @submit.prevent="openURL(unListedAffiliate)" class="flex flex-col gap-2 mt-6">
+        <p class="text-gray-700 font-medium">Enter your affiliate id if not listed</p>
+        <UInput v-model="unListedAffiliate" />
+        <UButton type="submit" class="w-full inline-flex items-center justify-center text-center">Submit</UButton>
+      </form>
     </div>
       
     </div>
