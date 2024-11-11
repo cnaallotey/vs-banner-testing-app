@@ -54,10 +54,12 @@ onMounted(() => {
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 body, html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 #bb-banner-video {
   max-width: 1200px;
