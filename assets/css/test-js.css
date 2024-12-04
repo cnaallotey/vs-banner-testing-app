@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 #bb-banner.bb-campaign-vs-test {
-    background: var(--Dark-Background, #1A1A1C);
+    background: var(--Dark-Background, #020420);
     font-family: 'Inter', sans-serif !important;
 }
 
 #bb-banner.bb-campaign-vs-test:hover .bb-core .bb-button-wrapper .bb-button {
     background: #ffffff;
     transition: background-color 0.5s, color 0.5s; 
-    color: #1A1A1C;
   }
 
   #bb-banner.bb-campaign-vs-test .bb-core, #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan {
@@ -21,9 +20,9 @@
   }
 
 #bb-banner.bb-campaign-vs-test .bb-logo {
-    width: 257.524px;
+    width: 235.524px;
 height: 40px;
-    background-image: url('http://vueschool.io/images/banners/assets/CERT_ANGULAR/logo.svg') !important;
+    background-image: url('http://vueschool.io/images/banners/assets/CERTIFICATES_NUXT/logo.svg') !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -38,13 +37,14 @@ height: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-   color: #fff;
+    color: #fff;
+    
 }
 
 #bb-banner.bb-campaign-vs-test .bb-slogan .bb-prelude span {
-    color: #F921BA;
-  margin-right: 30px;
-  }
+color: #00DC82;
+margin-right: 30px;
+}
 
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container {
@@ -79,7 +79,7 @@ height: 40px;
 
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-title span {
-    color: #F921BA;
+    color: #00DC82;
  }
 
  #bb-banner.bb-campaign-vs-test .bb-core .bb-button-wrapper .bb-button {
@@ -90,8 +90,8 @@ height: 40px;
     align-items: center;
     gap: 10px;
     border-radius: 50px;
-background: linear-gradient(90deg, #FF0021 0%, #8600FF 99.98%);
-    color: white;
+    background: #00DC82;
+    color: var(--Background, #131620);
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -140,7 +140,7 @@ text-transform: uppercase;
     padding: 6px 14px;
     align-items: center;
     border-radius: 4px;
-background: linear-gradient(90deg, rgba(255, 0, 33, 0.20) 0%, rgba(134, 0, 255, 0.20) 99.98%);
+background: rgba(0, 220, 130, 0.20);
 color: white;
 text-align: center;
 font-size: 18px;
@@ -149,7 +149,6 @@ font-weight: 800;
 line-height: normal;
 letter-spacing: 1.6px;
 }
-
 
 @media screen and (max-width: 1640px) {
     #bb-banner.bb-campaign-vs-test .bb-core {
@@ -175,13 +174,13 @@ letter-spacing: 1.6px;
         margin-right: 20px;
     }
 
-    #bb-banner.bb-campaign-vs-test .bb-slogan .bb-prelude span {
-        margin-right: 0px;
-    }
-
     #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-prelude {
         font-size: 15px;
         max-width: 130px;
+    }
+
+    #bb-banner.bb-campaign-vs-test .bb-slogan .bb-prelude span {
+        margin-right: 0px;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container {
@@ -200,7 +199,7 @@ letter-spacing: 1.6px;
         width: 39.394px;
 height: 40px;
 flex-shrink: 0;
-        background-image: url('http://vueschool.io/images/banners/assets/CERT_ANGULAR/mark.svg') !important;
+        background-image: url('http://vueschool.io/images/banners/assets/CERTIFICATES_NUXT/mark.svg') !important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -209,16 +208,16 @@ flex-shrink: 0;
         
     }
 
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper {
-        flex-direction: column;
-        gap: 2px;
-    }
-
     #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
         font-size: 12px;
         padding: 0px;
         background-color: transparent;
         background: transparent;
+    }
+
+    #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
     }
 }
 
@@ -262,32 +261,12 @@ flex-shrink: 0;
         font-size: 8px;
     }
 
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
-        color: var(--White, var(--White, #FFF));
-        text-align: center;
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.8px;
-        text-transform: uppercase;
-    }
-
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
-        color: var(--White, var(--White, #FFF));
-        text-align: center;
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-letter-spacing: 0.8px;
-text-transform: uppercase;
-        padding: 0px;
-        background-color: transparent;
-    }
-
     #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper {
         flex-direction: row;
         gap: 4px;
+    }
+
+    #bb-banner.bb-campaign-vs-test .bb-logo {
+        transform: translateX(-20px);
     }
 }

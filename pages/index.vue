@@ -20,7 +20,9 @@ const affiliates = [
   "angulartraining",
   "vuejs",
   "vuejsdevelopers",
-  "nuxt"
+  "nuxt",
+  "SENODEV",
+  "vuejobs"
 ]
 
 const showBanner = ref(true)
