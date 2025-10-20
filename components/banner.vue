@@ -1,5 +1,61 @@
 <script setup>
-import banner from '@/assets/data/banner.json';
+
+const affiliate = ref('vueschool_free')
+const { data, error } = await useAsyncData('banner-data', async () => {
+  try {
+    const response = await $fetch(`https://staging-banner.bitterbrains.com/json/${affiliate.value}`)
+    return response
+  } catch (err) {
+    console.error('Banner API error:', err)
+    throw err
+  }
+})
+
+const banner =  {
+      "id": "AIDD_WORKSHOP-OCT_REGISTRATION_AFFILIATES",
+      "ends": "2025-10-22T14:59:59.000000Z",
+      "affiliates": [
+        "vueuse",
+        "pinia",
+        "vuerouter",
+        "vueschool",
+        "vueschool_free",
+        "vueschool_premium",
+        "vuejsdevelopers",
+        "vuejsnation",
+        "nuxtnation",
+        "vuejsforge",
+        "LEARNVUE",
+        "masteringnuxt",
+        "vs_frontendnation",
+        "vs_masteringpinia",
+        "ANGADEMY",
+        "UILIB",
+        "VUEMASTERY",
+        "ANGUNI",
+        "DOTNET",
+        "NSCRIPT",
+        "angulartraining"
+      ],
+      "cta": "Register now",
+      "link": "https://aidd.io/workshop",
+      "title": "Ship <span>20x Faster<\/span> with AI",
+      "assets": "AIDD_LAUNCH",
+      "static": "AIDD_WORKSHOP_REGISTRATION",
+      "classes": [
+        "bb-campaign-aidd-workshop"
+      ],
+      "prelude": " ",
+      "addendum": null,
+      "ctaOffer": null,
+      "internal": false,
+      "subtitle": "Join a <b>free workshop</b> to explore LLMs and advanced AI tools.",
+      "offerLink": null,
+      "showCountdown": true,
+      "countdownFooter": "Ends in",
+      "showDaysAsHours": false,
+      "affiliatesWithCountdown": null
+    }
 
 </script>
 <template>

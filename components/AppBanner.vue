@@ -9,7 +9,7 @@ const props = defineProps({
 useHead({
   script: [
     {
-      src: `https://staging-banner.bitterbrains.com/js?affiliate=${props.affiliate}&type=top&closeable=true`,
+      src: `http://localhost:3000/js?affiliate=${props.affiliate}&type=top&closeable=true`,
     },
   ],
 })

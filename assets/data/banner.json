@@ -4,22 +4,22 @@
     "affiliates": [
       "vueschool"
     ],
-    "cta": "Buy Now",
+    "cta": "Join for Free",
     "link": "https://vueschool.io/sales/vuejsamsterdam24",
-    "title": "DON'T MISS OUT: <span>50% OFF<\/span> a Yearly Plan",
+    "title": "Free AI Workshop",
     "assets": "VUEJSNATION24",
     "classes": [
       "bb-campaign-vs-winter24"
     ],
-    "addendum": "time limited offer",
+    "addendum": null,
     "logoMobile": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
     "logoTablet": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
     "logoDesktop": "https://vueschool.io/images/banners/assets/VUEJSNATION24/mark.svg",
     "static": "VUEJSAMSTERDAM24",
-    "prelude": "<span>Cyber Monday<\/span> Latecomer",
+    "prelude": " ",
     "interlude": " ",
-    "subtitle": null,
-    "showCountdown": false,
+    "subtitle": "A 6-hour crash course in building real apps with LLMs.",
+    "showCountdown": true,
     "showDaysAsHours": true,
     "countdownFooter": "Ends in",  
     "ctaOffer": "50% OFFER",

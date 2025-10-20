@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 #bb-banner.bb-campaign-vs-test {
-    background: var(--Dark-Background, #1E1E20);
+    background: var(--Dark-Background, #1A1A1C);
     font-family: 'Inter', sans-serif !important;
 }
 
-#bb-banner.bb-campaign-vs-test .bb-core {
+ #bb-banner.bb-campaign-vs-test .bb-core {
     margin-right: 30px;
   }
 
 #bb-banner.bb-campaign-vs-test:hover .bb-core .bb-button-wrapper .bb-button {
     background: #ffffff;
+    color: #1A1A1C;
     transition: background-color 0.5s, color 0.5s; 
   }
 
@@ -22,12 +23,12 @@
 #bb-banner.bb-campaign-vs-test .bb-logo {
     width: 241.524px;
 height: 36px;
-    background-image: url('http://vueschool.io/images/banners/assets/CERTIFICATES/logo.svg') !important;
+    background-image: url('http://media.bitterbrains.com/images/banners/assets/CERT_ANGULAR/logo.svg') !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     position: relative;
-    margin-right: 40px;
+    margin-right: 60px;
     
 }
 
@@ -37,7 +38,7 @@ height: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: var(--Gradient, linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%));
+    background: var(--Gradient, linear-gradient(90deg, #F921BA 0%, #F921BA 0%, #0EBBD2 47.54%));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -62,7 +63,7 @@ background-clip: text;
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-title {
     color: var(--Body-Text, #E8E6E6);
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -70,13 +71,13 @@ background-clip: text;
 }
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-title span, #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-subtitle span {
-    color: #42B883;
+    color: #F921BA;
 }
 
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-subtitle {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -90,8 +91,8 @@ background-clip: text;
     align-items: center;
     gap: 10px;
     border-radius: 50px;
-    background: #42B883;
-    color: var(--Background, #131620);
+    background: #F921BA;
+    color: white;
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -100,8 +101,8 @@ background-clip: text;
 }
 
 #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-addendum {
-    color: #42B883;
-font-size: 16px;
+    color: #F921BA;
+font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -139,24 +140,19 @@ text-transform: uppercase;
     padding: 6px 14px;
     align-items: center;
     border-radius: 4px;
-    background: linear-gradient(90deg, rgba(66, 184, 131, 0.20) 0%, rgba(66, 184, 131, 0.20) 0%, rgba(14, 187, 210, 0.20) 47.54%);
+background: rgba(249, 33, 186, 0.20);
 color: var(--White, var(--White, #FFF));
 text-align: center;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 letter-spacing: 1.6px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
     #bb-banner.bb-campaign-vs-test .bb-core, #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan, #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container {
-        gap: 40px;
-    }
-
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container{
-        flex-direction: column;
-        gap: 0px;
+        gap: 60px;
     }
 }
 
@@ -178,7 +174,7 @@ letter-spacing: 1.6px;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-logo {
-        margin-right: 10px;
+        margin-right: 30px;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-prelude {
@@ -198,12 +194,12 @@ letter-spacing: 1.6px;
         width: 39.394px;
 height: 40px;
 flex-shrink: 0;
-        background-image: url('http://vueschool.io/images/banners/assets/CERTIFICATES/mark.svg') !important;
+        background-image: url('http://media.bitterbrains.com/images/banners/assets/CERT_ANGULAR/mark.svg') !important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         position: relative;
-        margin-right: 20px;
+        margin-right: 40px;
         
     }
 
@@ -216,17 +212,6 @@ flex-shrink: 0;
         font-size: 12px;
         padding: 0px;
         background-color: transparent;
-        background: transparent;    
-    }
-
-    #bb-banner.bb-campaign-vs-test .bb-logo {
-        transform: translateX(20px);
-    }
-}
-
-@media screen and (max-width: 980px) {
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container {
-        max-width: 300px;
     }
 }
 
@@ -254,7 +239,7 @@ flex-shrink: 0;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-title,  #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-subtitle {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-addendum {
@@ -263,8 +248,8 @@ flex-shrink: 0;
         max-width: 50px;
     }
 
-    #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container {
-        max-width: 140px;
+    #bb-banner.bb-campaign-vs-test .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        max-width: 160px;
     }
 
     #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper {
@@ -272,14 +257,15 @@ flex-shrink: 0;
         gap: 1px;
     }
 
-     #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
         font-size: 9px;
     }
 
-        #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
-            font-size: 10px;
-            color: #42B883;
-        }
+      #bb-banner.bb-campaign-vs-test .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 10px;
+        padding: 0px;
+        background-color: transparent;
+      }
 
     #bb-banner.bb-campaign-vs-test .bb-logo {
         transform: translateX(-20px);
